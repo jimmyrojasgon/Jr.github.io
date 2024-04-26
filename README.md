@@ -1,2 +1,2 @@
-# Jr.githutb.io
+# Jr.github.io
 Proyecto Certus
