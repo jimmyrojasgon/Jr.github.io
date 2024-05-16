@@ -4,21 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>libreria</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <h1>catatalago</h1>
-    <table>
-        <tr>
-            <th>codigo</th>
-            <th>producto</th>
-            <th>precio</th>
-        </tr>
-        <tr>
-            <td>001</td>
-            <td>pincel</td>
-            <td>$1.20</td>
-        </tr>
-    </table>
-    <TR><img src="imagenes/R.jpeg" alt="" height="100px"></TR>
+    <div class="widget block block-static-block">
+        <div class="top_banner_delivery" >
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAlNJREFUSEvdls+LjWEUxz9jgSnGkgyR5ZTNxE5EamTBwoYmszCM/NyJJkohjdggU+PHwiRNzWaUTFkQMws//gNFsSIWSOzM872dq+c+8z5zzzu9dcvZ3O7zPud83vP7baNF0tYiLv8NeINF8G2zSFbp8QSwy4CPgN1zwasC9wN3EtBB4G4OXhX4LHAhgZwDLlYNXgDsM6MPgW7gTQLZCGRzPR+PpTMK9BroAbAf2AkM2NkI8LjqHCtvBxKj9wDl2S1lPb4FHMlYHwaOesllwJeBMwWGvwPL7Hwoc2eWmhe8F1ARpXLJ2uhl+F1lD+8DH5KL51NFL3gc2JMoq1XUMpI1wFQEb8rxgm8AxyNrMbR+vBrQvR3AooQ8i+MFLwdemWeyqXwPegup6J4XXA/nNNBphq4Cp+YLz4GX2DDoAH4E2G3gJ7AWEHylAeW1vI8lp9twqQh8xfLZHt38DVyzYorhf4EVoX+/2N1muv9MpmB5oBbJyTFAQ0QF9MQubQFeWM49ujW1GLwuzN93gBbAJ0AQ9acMC6bwynNV7/pw/szAW8MI/VhC91sKPgFcN2ObDVr3vAeYtD8aJp8TsF7EqzuWguOdqgL5FcV7qRWZjk6HTfQ6AW+K9nEzXdVBQ6i1cepfDArf8wi8HXhq//ssFXGolSavrlZqA1j9+R5YaIa1hTQGtwE3Lcd/bIh0JR6rNry6tQ5Iq1oDoRaKjBwOL6AlXySldIv6WKvtJLA4sq5865tKz+YSt25ucmliHQpDQ0X11fKnVvKIS7fMrPZA3XdaBp4BL7aAH558utoAAAAASUVORK5CYII="/ height="40px">
+                  </div>
+                  <div class="col order-1">
+                    Delivery Gratis
+                    <small class="text-muted">por compras mayores a 50$</small>
+                  </div>
+                  <div class="col order-5">
+                      *valido chorrillos
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LIBRERIA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <div class="table">
+
+        <h1>catatalago</h1>
+        <table>
+            <tr>
+                <th>codigo</th>
+                <th>producto</th>
+                <th>precio</th>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>pincel</td>
+                <td>$1.20</td>
+            </tr>
+        </table>
+        <TR><img src="imagenes/R.jpeg" alt="" height="100px"></TR>
+    </div>
 </body>
 </html>
