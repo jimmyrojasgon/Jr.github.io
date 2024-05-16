@@ -11,3 +11,28 @@
     background-color: aqua;
     
 }
+
+.promotions-block{
+
+    -webkit-text-size-adjust: 100%;
+    --basic: #00a160;
+    --second-basic: #f2f2f2;
+    --third-basic: #e0e0e0;
+    --four-basic: #989e9b;
+    --white: #ffffff;
+    --black: #000000;
+    color: #000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1.4rem;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    max-width: 1390px !important;
+}
