@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ingrese</title>
+    <link rel="stylesheet" href="css/login.css">
+
+</head>
+<body>
+	<script>
+
+        function validarUsuario(){
+        
+        let usuario = document.getElementById('usuario').value;
+        let pass = document.getElementById("password").value;
+        
+        if (usuario == "jimmyrojasgonzales@gmail.com" && pass == 1234) {
+        window.location.href = 'index.html'
+        }
+        }
+        
+        </script>
+
+    <div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+			<div>ingrese<span> cuenta</span></div>
+		</div>
+		<br>
+		<div class="login">
+				<input type="text" placeholder="usuario" id="usuario" name="usuario">usuario<br>
+				<input type="password" placeholder="password" id="password" name="pass">contraseña<br>
+				<input type="button" value="Login" onclick="validarUsuario()">
+		</div>
+</body>
+</html>

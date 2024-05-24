@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="catalago.css">
+    <script src="js/carrito.js"></script>
+</head>
+<body>
+    <div class="page-nav">
+        <h1>UTILES</h1>
+        <button id="checkout" class="button-checkout" onclick="pay()">Pagar</button>
+       </div>
+       <section style="background-color: rgb(255, 255, 255);">
+         <h1>los mejores precios para ti</h1>
+       </section>
+   <div class="page-content">
+       <div class="product-container">
+           <h3>Colores artesco</h3>
+           <img src="imagenes/utiles/colores-triangulares-cortos-x-12-sacapunta-artesco-1923-default-1.jpg" />
+           <h1>$50</h1>
+           <button class="button-add" onclick="add('product-1', 50)">Agregar</button>
+       </div>
+ 
+       <div class="product-container">
+           <h3>artesco</h3>
+           <img src="imagenes/utiles/colores-triangulares-largos-duo-color-x-2448-artesco-20584-default-1.jpg" />
+           <h1>$300</h1>
+           <button class="button-add" onclick="add('product-2', 300)">Agregar</button>
+       </div>
+ 
+       <div class="product-container">
+         <h3>lapicero faber castell</h3>
+         <img src="imagenes/utiles/faber-castell-boligrafo-032-m-trilux-x-12-surt-343211-33748-default-1.jpg" />
+         <h1>$250</h1>
+         <button class="button-add" onclick="add('product-3', 250)">Agregar</button>
+       </div>
+       
+       <div class="product-container">
+         <h3>faber castell</h3>
+           <img src="imagenes/utiles/plumon-499-finepen-ice-set-x10-24161-default-1.jpg" />
+           <h1>$200</h1>
+           <button class="button-add" onclick="add('product-4', 200)">Agregar</button>
+         </div>
+ 
+         <div class="product-container">
+           <h3>vinifan</h3>
+           <img src="imagenes/utiles/plumon-vinifan-420-best-color-x-12-36800-default-1.jpg" />
+           <h1>$10</h1>
+           <button class="button-add" onclick="add('product-5', 10)">Agregar</button>
+         </div>
+         
+         <div class="product-container">
+           <h3>resaltador</h3>
+           <img src="imagenes/utiles/resaltador-stabilo-boss-pastel-x-8-unidades-46685-default-1.jpg" />
+           <h1>$650</h1>
+           <button class="button-add" onclick="add('product-6', 650)">Agregar</button>
+         </div>
+       </div>
+       
+    </section>
+    <script type="module" src="js/carrito.js"></script>
+    <script src="js/catalago.js"></script>
+</body>
+</html>

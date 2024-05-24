@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="js/login.js">
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
@@ -15,7 +14,7 @@
         let usuario = document.getElementById('usuario').value;
         let pass = document.getElementById("password").value;
         
-        if (usuario == "jimmyrojasgonzales@gmail.com" && pass == 1234) {
+        if (usuario == "jimmyrojasgonzales@gmail.com" && pass == 12345) {
         window.location.href = 'index.html'
         }
         }
@@ -24,16 +23,10 @@
 
 
 <form class="login-form">
-    <p class="login-text">
-      <span class="fa-stack fa-lg">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa fa-lock fa-stack-1x"></i>
-      </span>
-    </p>
     <h1 class="h3 mb-3 fw-normal">Ingrese</h1>
 	
 			<div class="form-floating mb-3">
-				<input type="text" class="form-control" id="usuario" placeholder="name@example.com">
+				<input type="text" class="form-control" id="usuario" placeholder="usuario">
 				<label for="email">usuario</label>
 			</div>
 			<div class="form-floating mb-3">
@@ -46,12 +39,8 @@
 					<input type="checkbox" value="remember-me"> Recuerdame
 				</label>
 			</div>
-			<button class="w-100 btn btn-lg btn-primary"  type="button" onclick="validarUsuario()" >Ingresar</button>
+			<button class="w-100 btn btn-lg btn-primary"  type="button" value="login" onclick="validarUsuario()" >Ingrese</button>
 
   </form>
-  <a href="#" class="login-forgot-pass">forgot password?</a>
-  <div class="underlay-photo"></div>
-  <div class="underlay-black"></div> 
-
 </body>
 </html>
