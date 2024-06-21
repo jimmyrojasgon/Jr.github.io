@@ -6,19 +6,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="catalago.css">
     <script src="js/carrito.js"></script>
+    <script src="js/catalago.js"></script>
+
 </head>
 <body>
     <div class="page-nav">
         <h1>UTILES</h1>
         <button id="checkout" class="button-checkout" onclick="pay()">Pagar</button>
        </div>
-       <section style="background-color: rgb(255, 255, 255);">
+       <section class="eslogan">
          <h1>los mejores precios para ti</h1>
        </section>
    <div class="page-content">
        <div class="product-container">
            <h3>Colores artesco</h3>
-           <img src="imagenes/utiles/colores-triangulares-cortos-x-12-sacapunta-artesco-1923-default-1.jpg" />
+           <img src="imagenes/utiles/colores-triangulares-cortos-x-12-sacapunta-artesco-1923-default-1.jpg" title="colores"/>
            <h1>$50</h1>
            <button class="button-add" onclick="add('product-1', 50)">Agregar</button>
        </div>
@@ -60,7 +62,5 @@
        </div>
        
     </section>
-    <script type="module" src="js/carrito.js"></script>
-    <script src="js/catalago.js"></script>
 </body>
 </html>

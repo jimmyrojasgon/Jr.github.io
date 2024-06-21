@@ -77,3 +77,8 @@ button {
     background-color: #4CAF50; /* Green */
     color: white;
 }
+
+.eslogan{
+    align-items: end;
+    background-color: antiquewhite;
+}
