@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="js/login.js">
 </head>
 <body>
     <script>
 
         function validarUsuario(){
         
-        let usuario = document.getElementById('usuario').value;
-        let pass = document.getElementById("password").value;
+        let email = document.getElementById('email').value;
+        let pass = document.getElementById("pass").value;
         
-        if (usuario == "jimmyrojasgonzales@gmail.com" && pass == 12345) {
+        if (email == "jimmyrojasgonzales@gmail.com" && pass == 12345) {
         window.location.href = 'catalago.html'
         }
         }
@@ -22,25 +23,25 @@
         </script>
 
 
-<form class="login-form">
+<form class="login-form" id="formulario">
     <h1 class="h3 mb-3 fw-normal">Ingrese</h1>
 	
 			<div class="form-floating mb-3">
-				<input type="text" class="form-control" id="usuario" placeholder="usuario">
-				<label for="email">usuario</label>
+				<input type="email" class="form-control" id="email" name="email" autocomplete="username" placeholder="correo">
+				<label for="email">Email</label>
 			</div>
 			<div class="form-floating mb-3">
-				<input type="password" class="form-control" id="password" placeholder="Password">
-				<label for="password">contraseña</label>
+				<input type="password" class="form-control" id="pass" name="pass" autocomplete="current-password" placeholder="contraseña">
+				<label for="pass">Contraseña</label>
 			</div>
 	
 			<div class="checkbox mb-3">
 				<label>
-					<input type="checkbox" value="remember-me"> Recuerdame
+					<input type="checkbox" id="Recuerdame" value="remember-me"> Recuerdame
 				</label>
 			</div>
-			<button class="w-100 btn btn-lg btn-primary"  type="button" value="login" onclick="validarUsuario()" >Ingrese</button>
-
+			<button class="w-100 btn btn-lg btn-primary"  type="button" value="button" onclick="validarUsuario()" >Ingrese</button>
+            <p class="warnings" id="warnings"></p>
   </form>
 </body>
 </html>
